@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+.section.header .direction-nav {
+    z-index: 50;
+    color: #000;
+    position: relative;
+    padding-top: 40px;
+}
+
+.section.header .flex_active_slider {
+    width: 100%;
+    float: left;
+    margin-right: -100%;
+    position: relative;
+    display: list-item;
+}
+
+.section.header #footer_style_left_band {
+    background: #000;
+    clear: both;
+    height: 30px;
+    width: 60px;
+
+}

@@ -1,0 +1,141 @@
+
+
+.navbar{
+    padding: 0;
+}
+
+.navbar-brand{
+    padding: 0;
+}
+
+.bd-navbar {
+    min-height: 4rem;
+    background-color: #ed381a;
+    font-size: 108%;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+#footer{
+    background-color: #ed381a;
+    color: white;
+}
+#footer a{
+    color: white;
+}
+#footer hr{
+    background-color: rgba(255, 255, 255, .5);
+}
+
+h5.special{
+    padding: 3px;
+    margin-left: -20px;
+    padding-left: 20px;
+    margin-top: -6px;
+    background-color:rgba(0,0,0,.3);
+}
+li.phone span{
+    font-weight: bolder;
+    font-size: 110%;
+    letter-spacing: 1px;
+}
+
+li.phone i{
+    display: inline;
+    padding: 5px 7px;
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+}
+
+#header{
+    background-image: url('../images/header/header.jpg');
+}
+
+#header h1{
+    color: white;
+    text-shadow: -1px -1px 1px rgb(252, 212, 134), 2px 2px 1px #f2930f;
+}
+#header h2{
+    color: #7e4d0a;
+}
+
+#header h3{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.411);
+    width: 180px;
+}
+
+#leverage{
+    font-weight: bold;
+}
+
+#leverage h3{
+    font-weight: bold;
+}
+
+#promo{
+    margin-right: 20%;
+}
+
+#separator{
+    height: 150px;
+}
+
+#contact-form-header{
+    background-color: #ed381a;
+    color: white;
+}
+
+#contact-form .form{
+    background-color: white;
+    margin-top: -150px;
+    width: 75%;
+    -webkit-box-shadow: 0 2px 21px 0 rgba(188,188,188,.5);
+    box-shadow: 0 2px 21px 0 rgba(188,188,188,.5);
+    border-radius: 8px;
+}
+#contact-form fieldset{
+    border-color: #ed381a;
+    border-style: solid;
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-bottom-width: 2px;
+    border-top-width: 3px;
+    border-radius: 8px;
+}
+
+fieldset legend{
+    width: auto;
+    color: #ed3a1aa1;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#services h3{
+    color: #ed381a;
+    font-size: 20px;
+}
+
+#services ul{
+    list-style-image: url(../images/icons/red-check.redimensionado.png) ;
+    padding-left: 3rem;
+    font-size: 18px;
+    color: rgb(62, 62, 62);
+}
+
+#experiences{
+    background: url(../images/bg_experience1.svg) left bottom, url(../images/phpo13hZz.jpg) right bottom;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover, contain;
+    color: white;
+    text-align: center;
+}

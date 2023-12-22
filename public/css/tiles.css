@@ -1,0 +1,77 @@
+.property{
+    height: 175px;
+    width: 250px;
+    overflow: hidden;
+    position: relative;
+}
+
+.property img{
+    width: 100%;
+    overflow: hidden;
+   
+}
+
+.property .bottom-data{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    bottom: 0;
+    padding: 0 5px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: small;
+    font-family: benton, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.properties-block{
+    text-align: center;
+}
+
+.hover-menu{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+    color: white;
+    font-family: benton, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: small;
+    z-index: 2;
+}
+
+.hover-menu .location{
+    margin-top: 30px;
+}
+
+.hover-menu .more-details{
+    border-top: 1px solid #8e85ef;
+    text-align: center;
+}
+
+.more-details .bath-rooms{
+    line-height: 30px;
+}
+
+.bath-rooms span{
+    margin: 0 5px;
+}
+
+.read-more a{
+    color: white;
+    border: 1px solid #7065ef;
+    background-color: #7065ef;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.read-more a:hover{
+    background-color: #4939f0;
+    border: 1px solid #4939f0;
+    border-radius: 5px;
+}
+
+.badget{
+    position: absolute;
+    right: 10px;
+    width: 40px;
+}

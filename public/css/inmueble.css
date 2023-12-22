@@ -1,0 +1,277 @@
+.banner {
+    text-align: center;
+    overflow: hidden;
+    height: 400px;
+    border-bottom: 1px solid rgba(41, 51, 57, .30);
+    z-index: 0;
+}
+
+.presentation,
+.comments {
+    border-bottom: 1px solid rgba(41, 51, 57, .30);
+}
+
+.property-data,
+.suggestions {
+    padding-top: 20px;
+    background-color: #F5F5F5;
+    border-bottom: 1px solid rgba(41, 51, 57, .30);
+}
+
+.general-data {
+    padding-bottom: 10px;
+}
+
+.main {
+    margin-top: 10px;
+}
+
+.reserve {
+    width: 100%;
+}
+
+.block-inmuebles {
+    border-top: 1px solid rgba(41, 51, 57, .30);
+    padding: 15px 0 15px 0;
+    margin-top: 15px;
+}
+
+.side-block {
+    border: 1px solid rgba(41, 51, 57, .30);
+    background-color: white;
+    position: fixed;
+    width: 350px;
+}
+
+.reserve-header {
+    padding: 8px;
+    color: white;
+    background-color: #7065ef;
+}
+
+.reserve-header h5,
+.reserve-header h6 {
+    margin-bottom: 0;
+}
+
+.contact .row>div {
+    text-align: center;
+    padding: 8px;
+}
+
+div.border-right {
+    border-right: 1px solid rgba(41, 51, 57, .30);
+}
+
+.avatar-container {
+    margin-right: 20px;
+}
+
+.main-data>div {
+    display: inline-block;
+}
+
+.contact-details {
+    border-bottom: 1px solid rgba(41, 51, 57, .30);
+    text-align: center;
+}
+
+.contact-details .address {
+    padding: 5px;
+    width: 100%;
+}
+
+.address i,
+.phone i {
+    margin-right: 5px;
+}
+
+.contact .phone {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.evaluation {
+    margin-top: 18px;
+}
+
+.evaluation a {
+    color: #4939f0;
+}
+
+.evaluation div {
+    border: 1px solid #4939f0;
+    border-radius: 5px;
+    display: inline-block;
+    width: 100px;
+    padding: 0 0 0 5px;
+}
+
+.fa-arrow-down {
+    margin: 5px 5px;
+}
+
+.reserve-header.concluded {
+    background-color: #0FA0CE;
+}
+
+.concluded {
+    text-decoration: line-through;
+}
+
+.state {
+    text-transform: lowercase;
+    font-weight: bold;
+}
+
+ul.breadcrumbs li {
+    padding: 5px;
+    font-size: .8rem;
+    border-top: 1px solid #bababa;
+    border-bottom: 1px solid #bababa;
+}
+
+.comment {
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    background: white;
+}
+
+.avatar-comment {
+    width: 80px;
+    text-align: right;
+    float: left;
+}
+
+.actual-comment {
+    margin-left: 10px;
+    float: left;
+}
+
+.comment-header .name {
+    float: left;
+    font-weight: bold;
+}
+
+.comment-header .date {
+    float: right;
+    font-size: small;
+    font-style: italic;
+    color: #805700;
+}
+
+.comment-content {
+    font-size: 95%;
+    font-style: italic;
+    color: gray;
+}
+
+.badget_seek {
+    background-color: #7065ef;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.badget_seek i {
+    margin-left: 5px;
+}
+
+.denounce {
+    border-top: 1px solid #bbbbbb;
+    text-align: center;
+}
+
+.down-block {
+    border: 1px solid rgba(41, 51, 57, .30);
+    background-color: white;
+    position: fixed;
+    width: 350px;
+    bottom: 10px;
+}
+
+.denounce li {
+    margin: 3px;
+    display: inline-block;
+    border: 1px solid red;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.denounce a {
+    font-size: 14px;
+    margin: 10px;
+    font-weight: normal;
+}
+
+.denounce a:hover {
+    color: #4939f0;
+}
+
+.fb-like {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.reserve-header.gestor {
+    background-color: #387FDC;
+}
+
+.gestor .contact-details {
+    text-align: left;
+    padding: 10px;
+}
+
+.gestor .facilitador {
+    color: #387FDC;
+}
+
+.gestor .name {
+    font-weight: bold;
+}
+
+.gestor .name span {
+    font-weight: lighter;
+}
+
+.gestor .avatar {
+    margin: 10px 0;
+    height: auto;
+}
+
+.gestor .small-4.medium-2 .avatar {
+    margin: 0;
+}
+
+.gestor .card {
+    display: flex;
+}
+
+.gestor .data-contact {
+    margin: 10px;
+}
+
+.gestor p {
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.gestor i {
+    margin-right: 5px;
+}
+
+h1.inmueble {
+    font-size: 1.6rem;
+}
+
+.margin-sm-0 {
+    margin: 0 !important;
+    font-size: 95%;
+}
+
+#figuresearch {
+    margin: 0em 0px;
+}

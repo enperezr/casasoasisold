@@ -1,0 +1,4 @@
+Sitemap: https://casasoasis.com/sitemap.xml
+User-agent: *
+Allow: /ads.txt
+Disallow:

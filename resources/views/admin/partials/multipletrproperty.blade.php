@@ -1,0 +1,1 @@
+@foreach($properties as $property)    @include('admin.partials.trproperty',['property'=>$property, 'user'=>$user])@endforeach

@@ -1,0 +1,18 @@
+.big-error{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 200px;
+    color: #0FA0CE;
+}
+
+.big-error.er500{
+    color: red;
+}
+
+.explain{
+    text-align: center;
+}
+
+.explain a{
+    text-transform: uppercase;
+}

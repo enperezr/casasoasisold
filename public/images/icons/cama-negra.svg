@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "" "">
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100px" height="84px" version="1.1" style="" viewBox="480 1200 1600 450"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {
+		fill:black;
+	}
+	#cama-negra {
+		shape-rendering:geometricPrecision;
+		text-rendering:geometricPrecision;
+		image-rendering:optimizeQuality;
+		fill-rule:evenodd;
+		clip-rule:evenodd;
+	}
+   ]]>
+  </style>
+ </defs>
+ <g id="cama-negra">
+  <metadata id="cama-style"/>
+  <path class="fil0" d="M532 1882l88 0 0 129c0,16 -14,29 -30,29l-28 0c-16,0 -30,-13 -30,-30l0 -128zm1400 0l87 0 0 129c0,16 -13,29 -29,29l-28 0c-17,0 -30,-13 -30,-30l0 -128zm-1410 -182l1510 0c14,0 25,11 25,25l0 132c0,13 -11,25 -25,25l-1510 0c-13,0 -25,-12 -25,-25l0 -132c0,-14 12,-25 25,-25z"/>
+  <path class="fil0" d="M497 1168c0,-11 9,-19 19,-19l29 0c11,0 19,8 19,19l0 310 1468 0c14,0 25,11 25,24l0 133c0,13 -11,24 -25,24l-1510 0c-13,0 -25,-11 -25,-24l0 -467z"/>
+  <ellipse class="fil0" cx="705" cy="1381" rx="115" ry="112"/>
+  <path class="fil0" d="M804 1374c52,-80 83,-112 295,-110 391,14 746,52 871,202l34 45 -1294 -11 94 -126z"/>
+ </g>
+</svg>
