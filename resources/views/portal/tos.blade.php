@@ -72,6 +72,7 @@
                             </p>
                         </li>
                     </ol>
+
                     <p>
                         Estos Términos y Condiciones pueden ser modificados por Casas Oasis en cualquier momento y dichas modificaciones entrarán en vigencia a partir de ese momento. Recomendamos a los usuarios revisar periódicamente los términos y condiciones actualizados. Los cambios se comunicarán a los usuarios registrados por correo electrónico y se publicarán en el sitio web.
                     </p>
