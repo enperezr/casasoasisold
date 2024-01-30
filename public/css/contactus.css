@@ -1,0 +1,30 @@
+p.description{
+    text-align: justify !important;
+}
+
+p.contact-data{
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+h1.title, h3.title{
+    font-size: xx-large;
+    text-align: center;
+}
+
+div#us{
+	text-align: center;
+}
+
+div.block.contact-us{
+    background-color: #eaeaea;
+}
+
+.alert-success{
+    text-align: center;
+    border: 1px solid green;
+    padding: 10px;
+    background-color: #00C030;
+    color: white;
+    font-size: 20px;
+}

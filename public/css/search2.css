@@ -1,0 +1,515 @@
+#upper-search {
+    width: 100%;
+    background-color: #387FDC;
+    padding-top: 15px;
+}
+
+#operations-trigger,
+#inmuebles-trigger {
+    background-color: #fff;
+    color: #000000;
+    border: 1px solid #e2e2e2;
+}
+
+#operations-dropdown,
+#inmuebles-dropdown {
+    padding: 0
+}
+
+#upper-filters ul.menu li {
+    padding: 5px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+#presentation-controls #count {
+    font-size: .85em;
+    line-height: 30px;
+}
+
+#presentation-controls select {
+    width: 150px;
+}
+
+#cleaner,
+#search {
+    width: 90%;
+    margin: 0 5% 10px 5%;
+    border-radius: 5px;
+}
+
+.clean-search {
+    background-color: whitesmoke;
+    color: gray;
+    border-color: gray;
+}
+
+.clean-search:hover {
+    background-color: gray;
+    color: whitesmoke;
+}
+
+.form-search div.row {
+    border-bottom: 1px solid rgba(41, 51, 57, .15);
+    min-height: 80px;
+    padding: 0;
+    margin: 0;
+}
+
+ul.option-group {
+    list-style: none;
+    margin: 10px 0 0 0;
+}
+
+ul.option-group li {
+    width: 100%;
+    font-size: .85em;
+}
+
+ul.option-group li input {
+    display: inline-block;
+    margin-bottom: 0;
+    height: auto;
+}
+
+ul.option-group li span {
+    margin-left: 10px;
+    display: inline-block;
+    height: 30px;
+    cursor: pointer;
+}
+
+ul.option-group li span.selected {
+    color: #FD8B06;
+    font-weight: bold;
+}
+
+.o-service,
+.o-extra {
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.o-service.fa-check-square,
+.o-extra.fa-check-square {
+    color: #FD8B06;
+}
+
+#side-filters .filters {
+    background-color: #fff;
+    border: 1px solid rgba(41, 51, 57, .30);
+    box-shadow: 0 1px 5px rgba(41, 51, 57, .35);
+    padding: 0;
+    width: 250px;
+}
+
+#side-filters .tabs-title {
+    width: 50%;
+}
+
+#side-filters-off .tabs-title {
+    width: 50%;
+}
+
+.tabs {
+    border: none;
+}
+
+.tabs-content {
+    border: none;
+}
+
+li.has-offcanvas-left {
+    display: table-cell;
+}
+
+#resultsList h1 {
+    font-size: 24px;
+    text-align: center;
+    color: #387FDC;
+    font-weight: bold;
+}
+
+.property-long {
+    border: 1px solid rgba(41, 51, 57, .30);
+    box-shadow: 0 1px 5px rgba(41, 51, 57, .35);
+    margin-bottom: 5px;
+    padding: 7px;
+}
+
+.property-long.gestor {
+    border: 1px solid #387FDC;
+    box-shadow: 0 1px 5px rgba(56, 127, 220, 0.71);
+    background-color: rgba(64, 175, 249, 0.1);
+}
+
+.property-long .picture {
+    height: 100%;
+    width: 40%;
+    max-width: 185px;
+    max-height: 120px;
+    overflow: hidden;
+    position: relative;
+}
+
+.pictures-trigger {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -22px 0 0 -24px;
+    opacity: 0;
+}
+
+.property-long .details {
+    margin-left: 7px;
+    width: 55%;
+}
+
+.address {
+    font-size: .9em;
+}
+
+.reviews {
+    font-size: .7em;
+}
+
+.entry-price {
+    border-top: 1px solid rgba(188, 188, 188, 0.35);
+    margin-top: 3px;
+    font-size: .9em;
+    font-weight: bold;
+    color: #66A400;
+    padding-top: 1em;
+}
+
+.entry-price.no-padding {
+    padding-top: 0;
+}
+
+.entry-price div.price {
+    width: 57%;
+}
+
+.entry-price div.reserve {
+    width: 40%;
+}
+
+div.reserve a.button {
+    margin-bottom: 0;
+    color: white;
+    background-color: #66A400;
+}
+
+.property-long .details h3 {
+    font-size: .9em;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.property-long .more-details {
+    width: 100%;
+    margin-top: 1em;
+    border-top: 1px solid rgba(188, 188, 188, 0.35);
+    display: none;
+    min-height: 200px;
+    position: relative;
+    text-align: center;
+}
+
+.property-long .more-details .button {
+    padding: 5px 15px;
+    border-radius: 3px;
+}
+
+.property-long .more-details a {
+    margin: 2px
+}
+
+.property-long .more-details .details-menu {
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.property-long .more-details .details-menu a {
+    color: gray;
+    font-size: .9em;
+}
+
+.property-long .more-details .close-menu {
+    margin-top: 10px;
+    text-align: right;
+    width: 100%;
+    bottom: 0;
+}
+
+.property-long .more-details .loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -24px 0 0 -24px;
+}
+
+.property-long .more-details .orbit-slider {
+    height: 400px !important;
+}
+
+.close-details:hover {
+    background-color: gray !important;
+    color: whitesmoke !important;
+    border-color: gray !important;
+}
+
+.price-data {
+    height: 100%;
+    float: right;
+    margin-right: 10px;
+}
+
+.alternatives {
+    height: 100%;
+    border-left: 1px solid #747474;
+    border-right: 1px solid #747474;
+    font-size: .9em;
+    text-align: center;
+    color: #747474;
+    padding: 10px;
+    display: none;
+}
+
+.action {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #353535;
+    height: 100%;
+}
+
+.action div.reserve {
+    width: 100%;
+    margin-top: 1em;
+}
+
+.action div.reserve a {
+    width: 100%;
+}
+
+.contact {
+    font-weight: bold;
+    padding: 10px 0 0 10px;
+    font-size: .9em;
+    color: #122b40;
+    height: 100%;
+    text-align: center;
+    width: 100px;
+    border-left: 1px solid rgba(18, 43, 64, 0.2);
+}
+
+.contact .enun.gestor {
+    color: #387FDC;
+}
+
+.contact .read-more span {
+    color: #2a4fba;
+}
+
+span.enun {
+    display: block;
+    color: #747474;
+    margin-bottom: 10px;
+}
+
+.entry-features {
+    font-size: .9em;
+    color: #747474;
+}
+
+.gallery-container {
+    min-height: 150px;
+}
+
+#pagination {
+    text-align: center;
+}
+
+#pagination li {
+    border: 1px solid #002200;
+}
+
+#pagination li.active {
+    background-color: #fdff9d;
+    padding: 3px 10px;
+}
+
+#progress {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    max-width: 800px;
+}
+
+.progress-bar {
+    display: block;
+    position: relative;
+    height: 5px;
+    width: 100%;
+    background-color: #eeeeee;
+}
+
+.progress-filler {
+    height: 100%;
+    width: 0;
+    background-color: #00aff0;
+}
+
+#new {
+    position: fixed;
+    right: 0;
+    top: 0;
+    padding: 5px;
+    color: white;
+    border: 1px solid white;
+    background-color: #7065ef;
+    width: 100%;
+    z-index: 100;
+    font-size: 50px;
+}
+
+#new i {
+    margin-right: 5px;
+}
+
+.concluded {
+    text-decoration: line-through;
+}
+
+@media all and (min-width: 1000px) {
+    .property-long {}
+}
+
+@media all and (min-width: 1200px) {
+    .alternatives {
+        display: block;
+    }
+}
+
+#figuresearch {
+    margin: 0em 0px;
+}
+
+.tabs-title>a {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.tabs-title.subtab>a {
+    font-weight: 400;
+    font-size: 14px;
+    background: #FFFFFF;
+}
+
+.tabs-title.is-active {
+    border-bottom: 2px solid #7065ef;
+}
+
+.sui-ListLink-item {
+    display: flex !important;
+}
+
+.tabspanels {
+    margin-top: 20px;
+}
+
+.sui-ListLink>li {
+    width: 22em;
+    float: left;
+    margin-right: 30px;
+}
+
+.re-SearchRelated-item {
+    display: flex;
+    float: left;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 1px solid #303ab2;
+    margin-top: 10px;
+    text-align: center;
+    padding: 8px;
+}
+
+.sui-AtomTag-actionable {
+    color: #303ab2;
+}
+
+h2.re-SearchRelated-title {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 22px 32px;
+}
+
+.re-SearchRelated {
+    margin-top: 50px;
+}
+
+.midleSearchRelated {
+    margin: 40px -16px 0;
+}
+
+.re-moreHomesFooter-nav {
+    padding: 16px 0;
+}
+
+.re-moreHomesFooter {
+    margin-top: 40px;
+}
+
+.re-moreHomesFooter .listLink-item {
+    display: inline;
+    white-space: nowrap;
+}
+
+.re-moreHomesFooter .linkBasic {
+    color: #000000;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+    padding: 2px 0;
+}
+
+.linkBasic {
+    color: #4d4d4d;
+    cursor: pointer;
+    font-size: 12px;
+    margin: 4px;
+    text-decoration: none;
+}
+
+.re-moreHomesFooter .listLink-item:not(:last-child):after {
+    content: "-";
+    padding: 0 8px;
+}
+
+.re-moreHomesFooter .linkBasic:hover {
+    color: #1585cf;
+}
+
+.re-SearchRelated-item:hover,
+.re-SearchRelated-item:hover a {
+    background-color: #303ab2;
+    color: white;
+}
+
+div.address.show-for-medium>span {
+    font-weight: normal;
+}
+
+.cut-text {
+    line-height: 1.6rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    max-height: 3.2rem;
+    font-size: 14px !important;
+    color: #353535;
+}

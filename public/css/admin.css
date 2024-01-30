@@ -1,0 +1,373 @@
+.search {
+    margin-top: 14px;
+}
+
+.highlight {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.as_admin {
+    border: 2px solid lightgray;
+}
+
+.as_admin th {
+    border-bottom: 2px solid lightgray;
+}
+
+select:disabled,
+input:read-only {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+tr.selected td {
+    background-color: greenyellow;
+}
+
+span#loader {
+    color: #FD8B06;
+}
+
+.section label {
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.section span {
+    display: block;
+}
+
+.section.orange {
+    background-color: #FD8B06;
+    border-color: orange;
+    color: whitesmoke;
+}
+
+.section.blue {
+    background-color: royalblue;
+    border-color: royalblue;
+    color: whitesmoke;
+}
+
+.section.green {
+    background-color: #6ab22f;
+    border-color: #6ab22f;
+    color: whitesmoke;
+}
+
+
+/*datatables my way*/
+
+table.data {
+    width: 100%;
+}
+
+input[type='search'] {
+    padding: 0 4px;
+    height: 30px;
+}
+
+.dataTables_info {
+    display: inline-block;
+}
+
+.paginate_button {
+    margin-left: 7px;
+}
+
+.paginate_button.current {
+    color: gray;
+    cursor: not-allowed;
+}
+
+a.command {
+    margin-left: 10px;
+}
+
+.dataTables_length label,
+.dataTables_filter label {
+    margin-bottom: 10px !important;
+}
+
+table#admin_properties td,
+table.regular td {
+    border: 1px solid #D5D5D5;
+    position: relative;
+}
+
+.edit {
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+table#admin_properties td.metadata {
+    font-weight: bolder;
+    font-size: 140%;
+}
+
+table#admin_properties td.metadata span {
+    margin-left: 5px;
+    font-size: 65%;
+    font-weight: normal;
+}
+
+table#admin_properties td.metadata span i {
+    margin-left: 2px;
+}
+
+.image_container li {
+    border: 1px solid #D5D5D5;
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+}
+
+.image_container li.front {
+    background-color: black;
+}
+
+.image_container #dropzone-area {
+    width: 100%;
+    height: 250px;
+    background: #D5D5D5;
+    border: 1px solid #808080;
+    margin-right: 20px;
+}
+
+ul#images {
+    margin-left: 0;
+    list-style: none;
+}
+
+ul#images li {
+    display: inline-table;
+}
+
+li.image div.edition textarea {
+    margin-bottom: 3px;
+    font-size: 10px;
+}
+
+li.image div.edition button {
+    margin: 0 10px 0 0;
+    padding: 3px;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+span.command_line {
+    float: right;
+}
+
+span.command_line button {
+    margin: 10px 0 10px 10px;
+}
+
+.row.action span {
+    display: inline-block;
+}
+
+span.badget {
+    border: 1px solid;
+    padding: 8px;
+    font-size: 80%;
+    font-weight: bolder;
+    margin: 0 5px 5px 0;
+}
+
+span.badget.permuta {
+    background-color: #FD8B06;
+    border-color: orange;
+    color: whitesmoke;
+}
+
+span.badget.venta {
+    background-color: royalblue;
+    border-color: royalblue;
+    color: whitesmoke;
+}
+
+.search-button {
+    margin: 25px 16px 0 0;
+    padding: 8px;
+}
+
+#filters {
+    height: 32px;
+    background-color: white;
+    border: 1px solid orange;
+    margin-right: 10px;
+    position: relative;
+}
+
+#filters ul {
+    margin: 0;
+}
+
+#filters_container .controls {
+    display: inline-block;
+}
+
+#filters_container .controls select {
+    float: left;
+    width: 200px;
+}
+
+#filters_container .controls button {
+    margin-bottom: 0;
+    padding: 8px;
+    margin-left: 5px;
+}
+
+#list_filters {
+    width: 100%;
+    height: 50px;
+    border: 1px solid orange;
+}
+
+.controls_group {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.controls_group button {
+    margin-bottom: 0;
+}
+
+button.cancel {
+    background-color: darkgray;
+}
+
+button.cancel:hover {
+    background-color: lightgray;
+}
+
+button.accept {
+    background-color: orange;
+}
+
+button.accept:hover {
+    background-color: #ffce23;
+}
+
+.mini_badget {
+    color: whitesmoke;
+    background-color: #cd8a00;
+    margin: 3px;
+    padding: 3px;
+    font-size: 70%;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.mini_badget i {
+    color: white;
+    margin-left: 5px;
+    font-size: 115%;
+    cursor: pointer;
+    border-left: 1px solid white;
+    padding-left: 3px;
+}
+
+#pictures li {
+    cursor: pointer;
+    margin: 3px;
+}
+
+#pictures li.selected {
+    border: 3px solid royalblue;
+}
+
+.sended.trigger_revo {
+    border: 3px solid crimson;
+}
+
+.text-light {
+    font-weight: lighter;
+    color: rgba(136, 136, 136, 0.8);
+}
+
+.block-form-white {
+    background-color: white;
+    padding: 20px;
+}
+
+input[type=email],
+select {
+    font-size: .85em;
+    height: 32px!important;
+    border: 1px solid #FD8B06;
+}
+
+.container.full .row {
+    max-width: none;
+    margin: 0 10px;
+}
+
+#admin_properties {
+    font-size: 15px;
+}
+
+#admin_properties thead,
+.regular thead {
+    text-transform: capitalize;
+}
+
+#admin_properties tbody td,
+#admin_properties tbody th,
+.regular tbody td,
+.regular tbody th {
+    padding: .5rem;
+}
+
+#admin_properties .gestor {
+    display: inline-block;
+    padding: 0 8px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.top-bar {
+    -webkit-box-shadow: 0 1px 4px rgba(41, 51, 57, .25);
+    box-shadow: 0 1px 4px rgba(41, 51, 57, .25);
+    height: 90px;
+    padding: 0;
+    background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#aca086), to(#dcd9c6));
+    background-color: #c1b6a0;
+}
+
+.top-bar a {
+    color: #a2291e;
+    font-family: benton, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-shadow: none;
+    font-weight: bold;
+}
+
+.footer {
+    width: 100%;
+    background-color: #c1b6a0;
+}
+
+.regular input {
+    margin-bottom: 0;
+}
+
+tr.special td {
+    background-color: #ffae0042;
+}
+
+.note {
+    color: rebeccapurple;
+    font-weight: bold;
+}
+
+.note i {
+    cursor: pointer;
+}

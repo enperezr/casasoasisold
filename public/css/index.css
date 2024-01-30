@@ -1,0 +1,38 @@
+.inline-list {
+    list-style: none;
+}
+
+.inline-list li {
+    display: inline-block;
+}
+
+.properties-block {
+    margin-bottom: 20px;
+    background-color: white;
+    border-left: 20px solid #7065ef;
+    border-bottom: 1px solid silver;
+}
+
+.block-header {
+    padding-left: 10px;
+    text-align: left;
+    background-color: #FD8B06;
+    color: white;
+}
+
+.presentation-block {
+    margin-bottom: 10px;
+    background-color: white;
+    border-left: 20px solid #7065ef;
+    border-bottom: 1px solid silver;
+    text-align: center;
+}
+
+.fb-like {
+    margin-left: 15 px;
+    margin-bottom: 10px;
+}
+
+figure {
+    margin: 0em 0px;
+}

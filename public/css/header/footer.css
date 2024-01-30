@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+.section.header footer {
+    clear: none;
+    width: 100%;
+    height: 350px;
+    background: rgba(220, 118, 56, 1.0) !important;
+    display: block;
+}

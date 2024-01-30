@@ -1,0 +1,327 @@
+#guide {
+    border: 2px solid green;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: white;
+}
+
+#guide ul {
+    margin: 0;
+}
+
+#guide .button {
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+#step {
+    font-size: xx-large;
+    font-style: italic;
+    color: #002D31;
+}
+
+#numbers {
+    font-size: 35px;
+    color: lightgray;
+    font-style: italic;
+}
+
+#choice {
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+li.active {
+    color: gray;
+    font-size: 50px;
+}
+
+#tos-agreement {
+    margin: 10px 0 10px;
+}
+
+.note-editor.note-frame {
+    margin-bottom: 10px;
+}
+
+.plan {
+    margin-top: 20px;
+    padding-bottom: 30px;
+    border: 1px;
+    box-shadow: 0 0 10px #c2c9d4;
+    border-radius: 32px;
+    padding: 0px 0px 20px 0px;
+}
+
+.plan h3.days {
+    color: #a2291e;
+    font-weight: bold;
+}
+
+.plan.infinite {
+    border-color: rgb(255, 155, 81);
+    border-width: 2px;
+}
+
+#b1 {
+    background-color: #BCB236;
+    border-color: #BCB236;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    height: 40px;
+    max-width: 256px;
+    width: 150px;
+    border-radius: 20px;
+}
+
+#b2 {
+    background-color: #21ACFF;
+    border-color: #21ACFF;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    height: 40px;
+    max-width: 256px;
+    width: 150px;
+    border-radius: 20px;
+}
+
+#b3 {
+    background-color: #FE6400;
+    border-color: #FE6400;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    height: 40px;
+    max-width: 256px;
+    width: 150px;
+    border-radius: 20px;
+}
+
+#b4 {
+    background-color: #00C041;
+    border-color: #00C041;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    height: 40px;
+    max-width: 256px;
+    width: 150px;
+    border-radius: 20px;
+}
+
+h5.plan_explain {
+    color: green;
+}
+
+h5.plan_explain span {
+    color: black;
+    font-weight: bold;
+}
+
+.plan a:hover {
+    border: 2px solid #dc9e0c !important;
+    background-color: #dc9e0c;
+}
+
+.plan p {
+    font-size: medium;
+    color: #333333;
+}
+
+.plan p span {
+    color: #a2291e;
+    font-weight: bold;
+    font-size: large;
+}
+
+div.form-container {
+    padding: 40px;
+    border: 1px solid grey;
+    background-color: white;
+}
+
+.subscription-package__banner.-popular {
+    background: url(/images/popular.svg);
+}
+
+.subscription-package__banner {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 90px;
+    width: 90px;
+}
+
+.days1 {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    line-height: 1.45em;
+}
+
+.days2 {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    line-height: 1.45em;
+}
+
+.days3 {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    line-height: 1.45em;
+}
+
+.days4 {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    line-height: 1.45em;
+}
+
+#chooseTitle {
+    color: #353a3d;
+    font-size: 28px;
+}
+
+#planheaderbas {
+    border-radius: 32px 32px 0px 0px;
+    height: 70px;
+    padding-top: 15px;
+    background: #BCB236;
+}
+
+h3.basplan {
+    color: #BCB236;
+}
+
+.picobas {
+    list-style: none;
+    background-image: url(/images/picobas.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 20px;
+    width: 100%;
+    height: 10px;
+}
+
+#planheaderinterm {
+    border-radius: 32px 32px 0px 0px;
+    height: 70px;
+    padding-top: 15px;
+    background: #21ACFF;
+}
+
+h3.intermplan {
+    color: #21ACFF;
+}
+
+.picointerm {
+    list-style: none;
+    background-image: url(/images/picointerm.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 20px;
+    width: 100%;
+    height: 10px;
+}
+
+#planheaderavan {
+    border-radius: 32px 32px 0px 0px;
+    height: 70px;
+    padding-top: 15px;
+    background: #FE6400;
+}
+
+h3.avanplan {
+    color: #FE6400;
+}
+
+.picoavan {
+    list-style: none;
+    background-image: url(/images/picoavan.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 20px;
+    width: 100%;
+    height: 10px;
+}
+
+.planheadermax {
+    border-radius: 32px 32px 0px 0px;
+    height: 70px;
+    padding-top: 15px;
+    background: #00C041;
+}
+
+h3.maxplan {
+    color: #00C041;
+}
+
+.bodyplan {
+    padding-right: 5px;
+}
+
+.ofert {
+    margin: 0;
+    padding: 0px 0 10px 29px;
+    list-style: none;
+    background-image: url(/images/palomitaverde.svg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 21px;
+    background-position-y: 4px;
+    text-align: -webkit-left;
+    font-size: small;
+    display: flow-root;
+    padding-right: 10px;
+}
+
+.ofertnonorm {
+    margin: 0;
+    padding: 0px 0 10px 29px;
+    list-style: none;
+    background-image: url(/images/noofferticon.svg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 21px;
+    text-align: -webkit-left;
+    font-size: small;
+    display: flow-root;
+    color: darkgray;
+}
+
+.ofertyes {
+    margin: 0;
+    padding: 5px 10px 0px 17px;
+    list-style: none;
+    background-image: url(/images/palomitaverde.svg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 13px;
+    background-position-y: 6px;
+    text-align: -webkit-left;
+    font-size: smaller;
+    float: left;
+}
+
+.ofertno {
+    margin: 0;
+    padding: 5px 10px 0px 17px;
+    list-style: none;
+    background-image: url(/images/noofferticon.svg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 13px;
+    background-position-y: 6px;
+    text-align: -webkit-left;
+    font-size: smaller;
+    float: left;
+    color: darkgray;
+}
+
+.picomax {
+    list-style: none;
+    background-image: url(/images/picoverde.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 20px;
+    width: 100%;
+    height: 10px;
+}

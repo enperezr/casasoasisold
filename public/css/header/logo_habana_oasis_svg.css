@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+/*SMALL LOGO HABANA OASIS*/
+
+#logo_capa_habanaoasis_menu {
+    background: transparent !important;
+}
+
+.fil_h_small {
+    fill: rgba(255, 255, 255, 0.85)
+}
+
+.fil_a2_small {
+    fill: rgba(255, 255, 255, 0.85)
+}
+
+.fil_b_small {
+    fill: rgba(255, 255, 255, 0.85)
+}
+
+.fil_a1_small {
+    fill: rgba(255, 255, 255, 0.85)
+}
+
+.fil_n_small {
+    fill: rgba(255, 255, 255, 0.85)
+}
+
+.fil_a3_small {
+    fill: rgba(255, 255, 255, 0.85)
+}
+
+.fil_a4_small {
+    fill: rgba(255, 255, 255, 0.85)
+}
+
+.fil_o_small {
+    fill: rgba(255, 255, 255, 0.85)
+}
+
+.fil_s1_small {
+    fill: rgba(255, 255, 255, 0.85)
+}
+
+.fil_i_small {
+    fill: rgba(255, 255, 255, 0.85)
+}
+
+.fil_s2_small {
+    fill: rgba(255, 255, 255, 0.85)
+}
+
+.fil_first_plant_small {
+    fill: rgba(255, 255, 255, 0.85)
+}
+
+.fil_second_plant_small {
+    fill: rgba(255, 255, 255, 0.85)
+}
+
+.fil_third_plant_small {
+    fill: rgba(255, 255, 255, 0.85)
+}
+
+
+/*LARGE LOGO HABANA OASIS*/
+
+#logo_capa_habanaoasis {
+    background: rgba(0, 0, 0, 0.32);
+}
+
+.fil_h {
+    fill: rgba(255, 255, 255, 0.60)
+}
+
+.fil_a2 {
+    fill: rgba(255, 255, 255, 0.60)
+}
+
+.fil_b {
+    fill: rgba(255, 255, 255, 0.60)
+}
+
+.fil_a1 {
+    fill: rgba(255, 255, 255, 0.60)
+}
+
+.fil_n {
+    fill: rgba(255, 255, 255, 0.60)
+}
+
+.fil_a3 {
+    fill: rgba(255, 255, 255, 0.60)
+}
+
+.fil_a4 {
+    fill: rgba(255, 255, 255, 0.60)
+}
+
+.fil_o {
+    fill: rgba(255, 255, 255, 0.60)
+}
+
+.fil_s1 {
+    fill: rgba(255, 255, 255, 0.60)
+}
+
+.fil_i {
+    fill: rgba(255, 255, 255, 0.60)
+}
+
+.fil_s2 {
+    fill: rgba(255, 255, 255, 0.60)
+}
+
+.fil_first_plant {
+    fill: rgba(255, 255, 255, 0.60)
+}
+
+.fil_second_plant {
+    fill: rgba(255, 255, 255, 0.60)
+}
+
+.fil_third_plant {
+    fill: rgba(255, 255, 255, 0.60)
+}
+
+.fil0 {
+    fill: rgba(255, 255, 255, 0.60)
+}
+
+.fil1 {
+    fill: rgba(0, 255, 255, 0.60)
+}
+
+#logo_habanaoasis {
+    margin: 70px 0 0 20px;
+    clear: both;
+    text-align: right;
+    padding-top: 245px;
+    position: absolute;
+    z-index: 2;
+}
+
+#cadre_dark_background {
+    background: rgba(0, 0, 0, 0.32);
+}
+
+.corner_orange_habana_oasis {
+    overflow: visible;
+    position: absolute;
+    z-index: 4;
+
+    border-top: 70px solid rgba(220, 118, 56, 1.0);
+    border-left: 0 solid transparent;
+    border-right: 90px solid transparent;
+
+    width: 265px;
+}
+
+#logo_habanaoasis_menu {
+    margin: -315px 0 0 0;
+    clear: both;
+    text-align: right;
+    padding-top: 245px;
+    position: absolute;
+    z-index: 2;
+}
+
+#svg_logo_small_habana_oasis,
+#svg_logo_large_habana_oasis {
+    shape-rendering:geometricPrecision;
+    text-rendering:geometricPrecision;
+    image-rendering:optimizeQuality;
+    fill-rule:evenodd;
+    clip-rule:evenodd size : 20%;
+    width: 190px;
+    height: 64px;
+}
+
+@media screen and (min-width: 39.9375em) {
+    #svg_logo_small_habana_oasis{
+        width: 250px;
+    }
+}

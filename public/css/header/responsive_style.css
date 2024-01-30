@@ -1,0 +1,203 @@
+@charset "UTF-8";
+
+@media only screen and (min-width: 200px) and (max-width: 400px) {
+
+    html, body, {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    div.corner_orange_habana_oasis {
+        overflow: visible;
+        position: absolute;
+        z-index: 4;
+        border-top: 40px solid rgba(220, 118, 56, 1.0);
+        border-left: 0 solid transparent;
+        border-right: 51px solid transparent;
+        width: 130px;
+    }
+
+    #logo_habanaoasis_menu {
+        margin: -297.5px 0 0 0;
+        z-index: 2;
+    }
+
+    #svg_logo_small_habana_oasis,
+    #svg_logo_large_habana_oasis {
+        shape-rendering:geometricPrecision;
+        text-rendering:geometricPrecision;
+        image-rendering:optimizeQuality;
+        fill-rule:evenodd;
+        clip-rule:evenodd size : 20%;
+        width: 140px;
+    }
+
+    #first-nav-oasis {
+        z-index: 3;
+        background: transparent repeat-x 0 scroll !important;
+        float: none;
+
+        width: 100%;
+        font-family: Roboto, 'Roboto', Helvetica, Arial, sans-serif;
+        position: relative;
+    }
+
+    .section.header #container {
+        z-index: 2;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        position: relative;
+    }
+
+
+    .section.header nav {
+        height: 37px;
+        background: rgba(0, 0, 0, 0.60);
+        font-family: Roboto, 'Roboto', Helvetica, Arial, sans-serif;
+        z-index: 2;
+        overflow: visible;
+        width: auto;
+        float: inherit;
+    }
+
+    #nav_items_responsive_style {
+        margin-left: 0;
+        overflow: hidden;
+        font-family: Roboto, 'Roboto', Helvetica, Arial, sans-serif;
+        background: transparent !important;
+        list-style: element(inside);
+        width: 100%;
+        height: 0;
+        display: list-item;
+        text-align: left;
+        z-index: 1;
+        padding-top: 36px;
+        position: fixed;
+    }
+
+    .section.header .button_draw_oasis {
+        display: block;
+    }
+
+    #responsive_menu_button {
+        width: 50px;
+        height: 30px;
+        background: transparent !important;
+        float: right;
+        margin: 3px 3px 0 3px;
+    }
+
+    .section.header .li_menu_oasis {
+        height: 60px;
+        background: rgba(0, 0, 0, 0.70);
+        width: 100%;
+        text-align: center;
+        border-bottom: 3px solid  rgba(0, 0, 0, 0.30);
+
+        -webkit-box-shadow: inset 0 10px 67px -17px rgba(0, 0, 0, 1.0) !important;
+            -moz-box-shadow: inset 0 10px 67px -17px rgba(0, 0, 0, 1.0) !important;
+                box-shadow: inset 0 10px 67px -17px rgba(0, 0, 0, 1.0) !important;
+    }
+
+    .section.header .button_menu_oasis {
+        margin: 0 auto;
+        display: none;
+        float: left;
+        text-align: left;
+        padding: 20px 20px 20px 20px;
+        background: rgba(220, 118, 56, 1.0);
+        z-index: 10;
+        width: 100%;
+
+        -webkit-border-radius: 0;
+            -moz-border-radius: 0;
+                border-radius: 0;
+    }
+
+    button {
+        border: transparent !important;
+    }
+
+    .ball_responsive_menu {
+        width: 6px;
+        height: 6px;
+        background: rgba(220, 118, 56, 1.0);
+        border-radius: 10px;
+        display: flex;
+    }
+
+    #top_ball {
+        margin-top: 2px;
+        margin-bottom: 3px;
+        margin-left: 30px;
+    }
+
+    #middle_ball {
+        margin-bottom: 3px;
+        margin-left: 30px;
+    }
+
+    #bottom_ball {
+        margin-bottom: 2px;
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 750px){
+    div.corner_orange_habana_oasis {
+        overflow: visible;
+        position: absolute;
+        z-index: 4;
+        border-top: 50px solid rgba(220, 118, 56, 1.0);
+        border-left: 0 solid transparent;
+        border-right: 64px solid transparent;
+        width: 180px;
+    }
+
+    #logo_habanaoasis_menu {
+        margin: -303px 0 0 0;
+        z-index: 2;
+    }
+
+    #svg_logo_small_habana_oasis,
+    #svg_logo_large_habana_oasis {
+        shape-rendering:geometricPrecision;
+        text-rendering:geometricPrecision;
+        image-rendering:optimizeQuality;
+        fill-rule:evenodd;
+        clip-rule:evenodd size : 20%;
+        width: 190px;
+    }
+
+    #nav_items_responsive_style{
+        height: 45px;
+    }
+
+    .button_draw_oasis{
+        height: 45px;
+    }
+
+    .section.header nav {
+        background: rgba(0, 0, 0, 0.21);
+        float: none;
+        font-family: Roboto, 'Roboto', Helvetica, Arial, sans-serif;
+
+        -webkit-box-shadow: inset 0 10px 67px -17px rgba(0, 0, 0, 1.0) !important;
+        -moz-box-shadow: inset 0 10px 67px -17px rgba(0, 0, 0, 1.0) !important;
+        box-shadow: inset 0 10px 67px -17px rgba(0, 0, 0, 1.0) !important;
+
+        height: 45px;
+        z-index: 1;
+    }
+
+    .section.header .li_menu_oasis {
+        height: 45px;
+        background: rgba(0, 0, 0, 0.30);
+
+        border-bottom: 25px  rgba(0, 0, 0, 0.30);
+        border-left: 52px  transparent;
+    }
+}

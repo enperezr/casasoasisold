@@ -1,0 +1,21 @@
+.download{
+    color: white;
+    border-radius: 4px;
+    margin-bottom: 0;
+}
+
+.download span{
+    margin-left: 10px;
+}
+
+.green{
+    background-color: green;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.gray{
+    background-color: gray;
+}

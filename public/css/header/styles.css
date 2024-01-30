@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+.section.header * {
+    margin: 0;
+    padding: 0;
+}
+
+.section.header body{
+    background-color: rgba(236, 241, 245, 1.0);
+}
+
+.section.header img {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+.section.header #module .oasis_box_info {
+    bottom: 100px;
+    min-height: 154px;
+    margin-top: 0;
+    max-width: 300px;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    width: auto;
+    z-index: 3;
+    font-size: 20px;
+}
+
+.section.header .oasis_box_info h2 {
+    color: rgba(255, 255, 255, 1.0);
+    font-family: Roboto, 'Roboto', Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 100%;
+    margin: 0 0 10px 0;
+    padding-right: 60px;
+    text-transform: none;
+}
+
+.section.header #module.background-video .oasis_box_info h2 {
+    padding-right: 0; /* don't need padding because the dots for the oasis_slide are gone */
+}
+
+.section.header .oasis_box_info h2 a {
+    color: rgba(255, 255, 255, 1.0);
+}
+
+.section.header .oasis_box_info .read-more {
+    background-color: rgba(220, 118, 56, 1.0);
+    color: rgba(236, 241, 245, 1.0);
+    display: inline;
+    font-weight: bold;
+    padding: 10px 15px 31px 15px;
+    line-height: 100%;
+    width: auto;
+}
+
+.section.header .oasis_box_info .read-more a {
+    color: rgba(236, 241, 245, 1.0);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.section.header .oasis_box_info .read-more a:hover, .oasis_box_info .read-more a:active  {
+    color: rgba(236, 241, 245, 1.0);
+
+
+}
+
+.section.header .oasis_box_info p {
+    color: rgba(255, 255, 255, 1.0);
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+.section.header .oasis_box_info .read-more {
+    font-weight: bold;
+    padding: 2px 5px 3px 5px;
+    line-height: 100%;
+}
+
+#footer_style {
+
+}

@@ -1,0 +1,24 @@
+li.img_2, li.img_1{
+    display: none !important;
+}
+
+.row.name h4{
+    margin-bottom: 0;
+}
+
+.row.name{
+    margin-bottom: 2em;
+}
+
+@media(min-width: 800px) {
+    li.img_1{
+        display: inline-block !important;
+    }
+}
+
+@media(min-width: 1100px) {
+    li.img_2{
+        display: inline-block !important;
+    }
+}
+
